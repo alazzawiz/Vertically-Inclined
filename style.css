@@ -1,0 +1,450 @@
+
+
+/* GLOBAL STYLES */
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* BACKGROUNDS */
+
+.background-maroon {
+	background-color: #911F0B;
+	opacity: 87%;
+}
+
+.background-green {
+	background-color: #87B14B;
+}
+
+
+
+/* IMAGES */
+
+img {
+	filter: saturate(120%);
+}
+
+.image-stack-top {
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image-stack-top-bg {
+	background-image: url('images/Rectangle 32.jpg');
+	width: 100%;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+/* BUTTONS */
+.button {
+		display: inline-block;
+		color: black;
+		padding: 20px 60px;
+		background-color: #FFFFFF;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background 0.2s ease;
+		border-radius: 1000px;
+}
+
+.button-learnmore {
+		display: inline-flex;
+		gap: 25px;
+		align-items: center; /*for icon*/
+		color: black;
+		padding: 25px 50px;
+		background-color: #FFFFFF;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background 0.2s ease;
+		border-radius: 50px;
+}
+
+.button-learnmore-black {
+		display: inline-flex;
+		gap: 25px;
+		align-items: center; /*for icon*/
+		color: white;
+		padding: 25px 60px;
+		background-color: black;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background 0.2s ease;
+		border-radius: 1000px;
+}
+
+.button-confirm {
+		display: inline-block;
+		color: white;
+		padding: 20px 60px;
+		background-color: black;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background 0.2s ease;
+		border-radius: 1000px;
+}
+
+.button-events-black {
+		display: inline-flex;
+		gap: 25px;
+		align-items: center; /*for icon*/
+		color: white;
+		padding: 25px 60px;
+		background-color: black;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background 0.2s ease;
+		border-radius: 1000px;
+}
+
+/* TEXT STYLES */
+
+h1 {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 150px;
+	line-height: 60%;
+	font-weight: bold;
+	font-stretch: extra-condensed;
+/*	position: absolute;
+	top: 65%; 
+	right: 47%; */
+	color: white;
+	margin-bottom: 200px;
+}
+
+h2 {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 110px;
+	line-height: 100%;
+	font-weight: bold;
+	font-stretch: extra-condensed;
+	/*position: absolute;
+	top: 90%; 
+	right: 67.5%;*/
+	color: white;
+	margin: 0px;
+}
+
+.footer-names {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 30px;
+	color: black;
+}
+.hero-text-small {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 110px;
+	line-height: 10px;
+	font-weight: bold;
+	font-stretch: extra-condensed;
+	color: white;
+	margin-left: 24px;
+}
+
+.hero-text-small-2 {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 110px;
+	line-height: 10px;
+	font-weight: bold;
+	font-stretch: extra-condensed;
+	color: white;
+	margin-left: 6px;
+}
+
+.hero-text-wrap {
+	position: absolute;
+	top: 300px;
+	left: 4%;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 100%;
+	font-weight: bold;
+	font-stretch: none;
+	/*position: absolute;
+	top: 145%;
+	right: 42%;*/ 
+	color: white;
+}
+
+p {
+	font-size: 20px;
+	line-height: 140%;
+	font-weight: 700;
+	color: white;
+}
+
+p2 {
+	font-size: 20px;
+	line-height: 140%;
+	font-weight: 700;
+	color: black;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-white {
+	color: white;
+}
+
+h4 {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 48px;
+	line-height: 100%;
+	font-weight: bold;
+	font-stretch: none;
+	color: black;
+	text-align: center;
+}
+
+.event-day {
+  display: block;
+  text-align: center;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 72px;
+  line-height: 1;
+  color: black;
+}
+
+.event-month {
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #87B14B;
+}
+
+.pass-card-title {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 48px;
+  margin: 0 0 24px 0;
+  color: white;
+ }
+
+/* TEXT LAYOUT */
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+
+.list-no-bullets {
+	list-style: none;
+	padding-left: 0px;
+}
+
+/* NAVIGATION */
+
+header {
+	background-color: rgba(182, 182, 182, 0.3);
+	padding: 16px 4%;
+}
+
+.header-nav {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+
+
+
+nav li {
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 55px;
+	padding-left: 0px;
+}
+
+.nav-link {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 60px;
+	max-width: 1200px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.nav-wrap2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 60px;
+	/*max-width: 1000px;*/
+	padding: 0 30px;
+	margin: 0 auto;
+	
+}
+
+
+/* INDVIDUAL STYLES */
+
+.position-relative {
+	position: relative;
+}
+
+.hero-img {
+	background-image: url(images/Rectangle 1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 600px;
+}
+
+.hero-icon {
+	width: 50%;
+	position: absolute;
+	left: -15%;
+	top: -30%;
+}
+
+.footer-meta{
+	margin-top: 160px;
+}
+
+.review-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.review-text {
+	display: block;
+	min-height: 110px;
+	margin-bottom: 24px;
+}
+
+.activity-column {
+	display: block;
+	margin-bottom: 24px;
+}
+
+.activity-column2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.icon {
+	width: 40x;
+	height: auto;
+	margin-top: -1px;
+}
+
+.footer-socialmedia {
+	margin-top: auto;
+	display: flex;
+	justify-content: flex-end;
+	gap: 12px;
+	position: absolute;
+	bottom: 24px;
+	right: 24px;
+}
+
+.footer {
+	position: relative;
+}
+
+
+.card-img-wrap {
+	width: 100%;
+	aspect-ratio: 9 / 16;
+	overflow: hidden;
+}
+
+.card-img {
+	object-fit: cover;
+	width: 100%;
+}
+
+.contact-icon {
+	display: flex;
+	gap: 10px;
+	align-items: start;
+	margin-bottom: 10px;
+}
+
+.booking-img {
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	z-index: 1;
+}
+
+.booking-nav {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	z-index: 10;
+	width: 100%;
+}
+
+.booking-nav-wrap {
+	display: flex;
+	width: 100%;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.events-row {
+	margin-top: 80px;
+}
+
+.pass-card {
+	border-radius: 120px;
+	padding: 130px 150px;
+	margin-bottom: 72px;
+}
+
+.pass-card-yellow {
+  background-color: #E6B500;
+}
+
+.pass-card-green {
+  background-color: #87B14B;
+}
+
+.pass-card-red {
+	background-color: #911F0B;
+	opacity: 87%;
+}
+
