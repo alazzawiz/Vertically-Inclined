@@ -9,6 +9,9 @@ body {
   font-style: normal;
 }
 
+.page-wrapper {
+	overflow: hidden;
+}
 
 /* BACKGROUNDS */
 
@@ -259,6 +262,7 @@ h4 {
 header {
 	background-color: rgba(182, 182, 182, 0.3);
 	padding: 16px 4%;
+	box-sizing: border-box;
 }
 
 .header-nav {
