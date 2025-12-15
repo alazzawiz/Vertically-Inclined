@@ -452,3 +452,49 @@ nav ul {
 	opacity: 87%;
 }
 
+
+
+
+
+@media screen and (max-width: 478px) {
+
+	h1 {
+		font-size: 56px;
+	}
+
+	h2 {
+		font-size: 44px;
+	}	
+
+	h3 {
+		font-size: 28px;
+	}		
+
+	.menu {
+		display: none;
+	}
+
+	.cta-wrap {
+		display: none;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+
+	.hero-icon {
+		width: 40%;
+		position: absolute;
+		right: -20%;
+		top: -10vw;
+	}
+
+	.newsletter-form{
+		display: grid;
+		grid-template: 1fr / 1fr;
+		gap: 32px;
+		align-items: start;
+		
+	}
+
+}
